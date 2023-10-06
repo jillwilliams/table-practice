@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Creepster';
+    font-size: 2.5rem;
+}
+#customers {
+    font-family: 'Creepster';
+    font-size: 1.5rem;
+    border-collapse: collapse;
+    width: 60%;
+    border: 2px fuchsia solid;
+    color: black;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#customers td, #customers th {
+    border: 5px solid fuchsia;
+    padding: 20px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: white;
+}
+
+#customers tr:hover {
+    background-color: greenyellow;
+}
+
+#customers th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+}
+/* ////////////////////////// */
+.list ul {
+    display: flex;
+}
+.list ul li img {
+    width: 100px;
+}
+.list ul li p {
+    color: white;
+    font-family: 'Creepster';
+    font-size: 2rem;
+    text-align: center;
+}
+#ghost1 {
+    margin-right: 40rem;
+    margin-top: 40px;
+}
+#ghost2 {
+    margin-left: 40rem;
+    margin-top: 40px;
+}
+
+/* /////////////////////////////// */
+.denver ul {
+    display: flex;
+}
+.denver ul li img {
+    width: 200px;
+}
+.denver ul li p {
+    color: white;
+    font-family: 'Creepster';
+    font-size: 2rem;
+    text-align: center;
+    margin-left: -5rem;   
+}
+#helmet1 {
+    margin-right: 40rem;
+    margin-top: 40px;
+}
+#helmet2 {
+    margin-left: 30rem;
+    margin-top: 40px;
+}
